@@ -1,0 +1,15 @@
+SQLALCHEMY_DATABASE_URI = 'mysql+cymysql://root:Wsbfdzz19990814@127.0.0.1/sushuo'
+SECRET_KEY = 'This_1s_A_Secret'
+
+# 开启数据库查询性能测试
+SQLALCHEMY_RECORD_QUERIES = True
+
+# 性能测试的阀值
+DATABASE_QUERY_TIMEOUT = 0.5
+
+SQLALCHEMY_TRACK_MODIFICATIONS = True
+
+WTF_CSRF_CHECK_DEFAULT = False
+
+SQLALCHEMY_ECHO = True
+
